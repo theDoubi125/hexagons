@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp-Editor.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Editor\MapGeneratorEditor.cs">
+    <Files>
+      <File FileName="Assets\MapData.cs" Line="14" Column="28" />
+      <File FileName="Assets\CellMesh.cs" Line="1" Column="1" />
+      <File FileName="Assets\MapGenerator.cs" Line="58" Column="6" />
+      <File FileName="Assets\Editor\MapDataDrawer.cs" Line="77" Column="5" />
+      <File FileName="Assets\Editor\MapGeneratorEditor.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
