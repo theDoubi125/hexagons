@@ -52,8 +52,14 @@ public class MapGenerator : MonoBehaviour
                     Transform instance = Instantiate<Transform>(cellPrefab, RayTracer.GetCellPosition(new Cell(i, j)), Quaternion.identity, transform);
                     instance.transform.localScale = new Vector3(1, Mathf.Max(0.01f, map.GetHeight(i, j)), 1);
                     instance.transform.localRotation = Quaternion.Euler(new Vector3(0, 30, 0));
+                    instance.GetComponent<MapCell>().cell = new Cell(i, j);
                 }
             }
         }
+    }
+
+    public void SetHeight(Cell cell, float height)
+    {
+        map.SetHeight(cell, height);
     }
 }

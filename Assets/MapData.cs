@@ -36,9 +36,9 @@ public class MapData : ScriptableObject
         return heights[x + w * y];
     }
 
-    public void SetHeight(int x, int y, float height)
+    public void SetHeight(Cell cell, float height)
     {
-        heights[x + w * y] = height;
+        heights[cell.x + w * cell.y] = height;
     }
     
 }
